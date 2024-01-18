@@ -9,4 +9,11 @@ public class Conversacion {
 	public void saludar() {
 		System.out.println("Hola Mundo!");
 	}
+	
+	/***
+	 * Saluda a alguien o algo en específico
+	 * */
+	public void saludar(String str) {
+		System.out.println("Hola " + str + "!");
+	}
 }
